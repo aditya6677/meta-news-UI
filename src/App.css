@@ -1,32 +1,94 @@
-.App {
-  text-align: center;
+body {
+  background-color:#2d2f37;
+  color: #ddd;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.header{
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dateTime{
+  display: inline-block;
+  float: right;
+  margin-top: 13px;
+}
+
+.button1{
+  background-color: #2d2f37;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   color: white;
+  padding: 13px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 5px;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.button1:focus{
+  background-color: #ddd;
+  border: 1px solid #2d2f37;
+  color: #2d2f37;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.roundedBox{
+  padding-left: 0px;
+}
+
+.autoComplete{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #2d2f37;
+  border: 1px solid #ddd;
+}
+
+.autoCompleteParent{
+
+}
+
+.headerParent{
+
+}
+
+.main-content{
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  padding: 10px 6px;
+}
+
+.tags{
+  margin: 0px;
+  margin-top: 6px;
+}
+
+.main-content h3{
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.readMore{
+  margin-bottom: 0px;
+}
+
+.tagLine{
+  font-size: 22px;
+}
+
+.customtags{
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.loaderReact div:first-child {
+  margin: 0 auto;
+}
+
+.loaderReact{
+  border: 1px solid #ddd;
 }
